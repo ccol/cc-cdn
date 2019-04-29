@@ -1,0 +1,738 @@
+<html><head><meta name="x-apple-disable-message-reformatting"><meta name="viewport" content="width=device-width, initial-scale=1"><style type="text/css">
+        body {
+            background-color: #f8f8f8;
+            color: #4f4f4f;
+            font-family: Salesforce Sans, Arial, sans-serif;
+            margin: 0;
+            padding: 0
+        }
+
+        .block-bg {
+            background-color: #fff
+        }
+
+        .brand-bg {
+            background-color: #f1f1f1
+        }
+
+        .header-bg {
+            background-color: #f01e21
+        }
+
+        .footer-bg {
+            background-color: #ffffff
+        }
+
+        img {
+            max-width: 100%
+        }
+
+        .border-top {
+            border-top: 1px solid #d3d3d3
+        }
+
+        .border-right {
+            border-right: 1px solid #d3d3d3
+        }
+
+        .border-bottom {
+            border-bottom: 1px solid #d3d3d3
+        }
+
+        .border-left {
+            border-left: 1px solid #d3d3d3
+        }
+
+        .float-right {
+            float: right
+        }
+
+        .p0 {
+            padding: 0
+        }
+
+        .p5 {
+            padding: 5px
+        }
+
+        .p5top {
+            padding-top: 5px
+        }
+
+        .p5right {
+            padding-right: 5px
+        }
+
+        .p5bottom {
+            padding-bottom: 5px
+        }
+
+        .p5left {
+            padding-left: 5px
+        }
+
+        .p10 {
+            padding: 10px
+        }
+
+        .p10top {
+            padding-top: 10px
+        }
+
+        .p10right {
+            padding-right: 10px
+        }
+
+        .p10bottom {
+            padding-bottom: 10px
+        }
+
+        .p10left {
+            padding-left: 10px
+        }
+
+        .p15 {
+            padding: 15px
+        }
+
+        .p15top {
+            padding-top: 15px
+        }
+
+        .p15right {
+            padding-right: 15px
+        }
+
+        .p15bottom {
+            padding-bottom: 15px
+        }
+
+        .p15left {
+            padding-left: 15px
+        }
+
+        .p20 {
+            padding: 20px
+        }
+
+        .p20top {
+            padding-top: 20px
+        }
+
+        .p20right {
+            padding-right: 20px
+        }
+
+        .p20bottom {
+            padding-bottom: 20px
+        }
+
+        .p20left {
+            padding-left: 20px
+        }
+
+        .p25 {
+            padding: 25px
+        }
+
+        .p25top {
+            padding-top: 25px
+        }
+
+        .p25right {
+            padding-right: 25px
+        }
+
+        .p25bottom {
+            padding-bottom: 25px
+        }
+
+        .p25left {
+            padding-left: 25px
+        }
+
+        .p30 {
+            padding: 30px
+        }
+
+        .p30top {
+            padding-top: 30px
+        }
+
+        .p30right {
+            padding-right: 30px
+        }
+
+        .p30bottom {
+            padding-bottom: 30px
+        }
+
+        .p30left {
+            padding-left: 30px
+        }
+
+        .p40 {
+            padding: 40px
+        }
+
+        .p40top {
+            padding-top: 40px
+        }
+
+        .p40right {
+            padding-right: 40px
+        }
+
+        .p40bottom {
+            padding-bottom: 40px
+        }
+
+        .p40left {
+            padding-left: 40px
+        }
+
+        .p50 {
+            padding: 50px
+        }
+
+        .p50top {
+            padding-top: 50px
+        }
+
+        .p50right {
+            padding-right: 50px
+        }
+
+        .p50bottom {
+            padding-bottom: 50px
+        }
+
+        .p50left {
+            padding-left: 50px
+        }
+
+        .p60top {
+            padding-top: 60px
+        }
+
+        .p60right {
+            padding-right: 60px
+        }
+
+        .p60bottom {
+            padding-bottom: 60px
+        }
+
+        .p60left {
+            padding-left: 60px
+        }
+
+        .p75 {
+            padding: 75px
+        }
+
+        .p75top {
+            padding-top: 75px
+        }
+
+        .p75right {
+            padding-right: 75px
+        }
+
+        .p75bottom {
+            padding-bottom: 75px
+        }
+
+        .p75left {
+            padding-left: 75px
+        }
+
+        .p100 {
+            padding: 100px
+        }
+
+        .p100top {
+            padding-top: 100px
+        }
+
+        .p100right {
+            padding-right: 100px
+        }
+
+        .p100bottom {
+            padding-bottom: 100px
+        }
+
+        .p100left {
+            padding-left: 100px
+        }
+
+        .m5 {
+            margin: 5px
+        }
+
+        .m5top {
+            margin-top: 5px
+        }
+
+        .m5right {
+            margin-right: 5px
+        }
+
+        .m5bottom {
+            margin-bottom: 5px
+        }
+
+        .m5left {
+            margin-left: 5px
+        }
+
+        .m10 {
+            margin: 10px
+        }
+
+        .m10top {
+            margin-top: 10px
+        }
+
+        .m10right {
+            margin-right: 10px
+        }
+
+        .m10bottom {
+            margin-bottom: 10px
+        }
+
+        .m10left {
+            margin-left: 10px
+        }
+
+        .m20 {
+            margin: 20px
+        }
+
+        .m20top {
+            margin-top: 20px
+        }
+
+        .m20right {
+            margin-right: 20px
+        }
+
+        .m20bottom {
+            margin-bottom: 20px
+        }
+
+        .m20left {
+            margin-left: 20px
+        }
+
+        .m30 {
+            margin: 30px
+        }
+
+        .m30top {
+            margin-top: 30px
+        }
+
+        .m30right {
+            margin-right: 30px
+        }
+
+        .m30bottom {
+            margin-bottom: 30px
+        }
+
+        .m30left {
+            margin-left: 30px
+        }
+
+        .m40 {
+            margin: 40px
+        }
+
+        .m40top {
+            margin-top: 40px
+        }
+
+        .m40right {
+            margin-right: 40px
+        }
+
+        .m40bottom {
+            margin-bottom: 40px
+        }
+
+        .m40left {
+            margin-left: 40px
+        }
+
+        .m50 {
+            margin: 50px
+        }
+
+        .m50top {
+            margin-top: 50px
+        }
+
+        .m50right {
+            margin-right: 50px
+        }
+
+        .m50bottom {
+            margin-bottom: 50px
+        }
+
+        .m50left {
+            margin-left: 50px
+        }
+
+        .m75 {
+            margin: 75px
+        }
+
+        .m75top {
+            margin-top: 75px
+        }
+
+        .m75right {
+            margin-right: 75px
+        }
+
+        .m75bottom {
+            margin-bottom: 75px
+        }
+
+        .m75left {
+            margin-left: 75px
+        }
+
+        .m100 {
+            margin: 100px
+        }
+
+        .m100top {
+            margin-top: 100px
+        }
+
+        .m100right {
+            margin-right: 100px
+        }
+
+        .m100bottom {
+            margin-bottom: 100px
+        }
+
+        a,
+        div,
+        li,
+        p,
+        td {
+            -webkit-text-size-adjust: none
+        }
+
+        .text-brand-color {
+            color: #4f4f4f
+        }
+
+        .text-header-color {
+            color: white
+        }
+
+        .text-footer-color {
+            color: #4f4f4f
+        }
+
+        .text-uppercase {
+            text-transform: uppercase
+        }
+
+        .text-align-center {
+            text-align: center
+        }
+
+        .text-align-right {
+            text-align: right
+        }
+
+        .text-align-left {
+            text-align: left
+        }
+
+        .font10 {
+            font-size: 10px
+        }
+
+        .font12 {
+            font-size: 12px
+        }
+
+        .font13 {
+            font-size: 13px
+        }
+
+        .font14 {
+            font-size: 14px
+        }
+
+        .font16 {
+            font-size: 16px
+        }
+
+        .font18 {
+            font-size: 18px
+        }
+
+        .font20 {
+            font-size: 20px
+        }
+
+        .font24 {
+            font-size: 24px
+        }
+
+        .font28 {
+            font-size: 28px
+        }
+
+        .font30 {
+            font-size: 30px
+        }
+
+        .font48 {
+            font-size: 48px
+        }
+
+        a.no-decoration {
+            text-decoration: none
+        }
+
+        a.inherit-color {
+            color: inherit
+        }
+
+        .text-link {
+            color: #505050;
+            font-weight: 700;
+            text-decoration: none
+        }
+
+        .preheader-text {
+            font-size: 11px
+        }
+
+        .text-headline-primary {
+            display: block;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 34px;
+            padding-bottom: 20px
+        }
+
+        .text-headline-secondary {
+            font-size: 22px;
+            line-height: 28px;
+            padding: 20px 0 10px;
+            text-align: center;
+            vertical-align: top
+        }
+
+        .text-headline-secondary,
+        .text-headline-tertiary {
+            display: inline-block;
+            font-style: normal;
+            font-weight: 700
+        }
+
+        .text-headline-tertiary {
+            font-size: 18px;
+            font-style: bold;
+            line-height: 22px;
+            padding-bottom: 5px
+        }
+
+        .text-body {
+            font-size: 16px
+        }
+
+        .text-body,
+        .text-body-sm {
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px
+        }
+
+        .text-body-sm {
+            font-size: 11px
+        }
+
+        .button {
+            background-color: #505050;
+            border-radius: 15px;
+            color: #4f4f4f;
+            display: inline-block;
+            padding: 8px 40px
+        }
+
+        .button a {
+            color: #4f4f4f;
+            text-decoration: none
+        }
+
+        .button.buttondark {
+            background-color: #505050
+        }
+
+        .button-link {
+            background-color: #505050;
+            border-color: #505050;
+            border-radius: 20px;
+            border-style: solid;
+            border-width: 12px 18px;
+            color: #4f4f4f;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase
+        }
+
+        .button-link.button-link_button-color {
+            background-color: #505050;
+            border-color: #505050;
+            color: white
+        }
+
+        .social-button {
+            border: 10px solid #f1f1f1;
+            border-radius: 50%
+        }
+
+        .social-button,
+        .social-button-large {
+            background-color: #f1f1f1;
+            display: inline-block;
+            margin: 20px 10px
+        }
+
+        .social-button-large {
+            border: 15px solid #f1f1f1;
+            border-radius: 50%
+        }
+
+.icon-container {
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #f1f1f1;
+  border-top: 10px solid #f1f1f1;
+  border-bottom: 10px solid #f1f1f1;
+  border-right: 10px solid #f1f1f1;
+  border-left: 10px solid #f1f1f1;
+}
+
+        .coupon-border {
+            border: 2px dashed #f1f1f1
+        }
+
+
+        .buttonblock {
+            border-radius: 20px !important
+        }
+
+        .buttonblock,
+        .buttonstyles {
+            background-color: #f1f1f1 !important
+        }
+
+        .buttonstyles {
+            border: 1px solid #f1f1f1 !important;
+            border-radius: 20px !important;
+            color: #4f4f4f !important;
+            display: inline-block !important;
+            font-family: Salesforce Sans, Arial, sans-serif !important;
+            font-size: 14px !important;
+            padding: 8px 40px !important;
+            text-align: center !important;
+            text-decoration: none !important;
+            text-transform: uppercase !important
+        }
+
+        @media screen and (max-width:480px) {
+            .db-container {
+                width: 360px !important
+            }
+
+            .db-container-padding {
+                padding: 20px 20px 20px 40px !important;
+                width: 360px !important
+            }
+
+            .db-full-width {
+                float: left !important;
+                padding: 0 !important;
+                width: 100% !important
+            }
+
+            .db-full-width-padding-bottom {
+                float: left !important;
+                padding: 0 0 25px !important;
+                width: 100% !important
+            }
+
+            .db-full-width-center {
+                float: left !important;
+                padding: 10px 0 !important;
+                text-align: center !important;
+                width: 100% !important
+            }
+
+            .db-wrapper-padding {
+                padding: 20px !important
+            }
+
+            .db-photo {
+                height: auto !important;
+                width: 100% !important
+            }
+
+            .db-photo-sm {
+                height: auto !important;
+                width: 50% !important
+            }
+
+            .db-text {
+                font-size: 16px !important
+            }
+
+            .db-hide {
+                display: none !important
+            }
+        }
+    </style></head><body><table align="center" border="0" cellpadding="0" cellspacing="0" width="600px" class="db-container"><tbody><tr><td><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tbody><tr><td class="stylingblock-content-wrapper camarker-inner"><table border="0" cellpadding="0" cellspacing="0" width="100%"></table><table border="0" cellpadding="0" cellspacing="0" class="db-container" width="600" align="center"><tbody><tr><td class="preheader-text preheader-bg text-align-center full-width-center p25" width="100%"> Join our upcoming webinar. View as a <a class="text-link">Webpage</a>.</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="db-container header-bg"><tbody><tr><td width="100%" style="padding: 20px 20px 15px;"><center><img id="style-header-logo" src="https://s3.amazonaws.com/demo-builder/custom-demo-assets/f4681a50-6718-11e9-95e8-4148e680dc2e.png" style="width:50%"></center></td></tr></tbody></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="db-container" width="600px"><tbody><tr><td><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tbody><tr><td class="stylingblock-content-wrapper camarker-inner"><table align="center" border="0" cellpadding="0" cellspacing="0" class="block-bg db-container" width="600">
+	
+		<tbody><tr>
+			<td align="center" class="block-bg font14 p20top p40right p10bottom p40left text-align-center" valign="top" width="100%">
+				<span class="font30"><b>Mernda YMCA Early Learning Centre</b></span></td></tr><tr>
+			<td>
+				&nbsp;<table align="center" border="0" cellpadding="0" cellspacing="0" class="block-bg" style="width: auto;" width="150">
+					
+						<tbody><tr>
+							<td align="center" class="brand-bg text-brand-color font14 p10 text-align-center" style="border-radius: 3px 3px 0px 0px;">
+								M A Y</td></tr><tr>
+							<td align="center" class="block-bg border-top border-right border-bottom border-left font48 p15top p25right p15bottom p25left" style="border-radius: 0px 0px 3px 3px;">
+								8</td></tr></tbody></table></td></tr><tr>
+			<td align="center" class="font14 p20top p40right p10bottom p40left text-align-center" valign="top" width="100%">
+				<br>
+				<b>Wednesday, 8th May @ 2pm<br>
+				Address: 2 Goulburn St, Mernda VIC 3754&nbsp;</b><br>
+				<br>
+				<span class="font30">Your tour is confirmed.</span><br>
+				<br>
+				<i><b>Please notify reception upon your arrival</b></i></td></tr><tr>
+			<td class="p20top p20bottom text-align-center">
+				<a class="button-link button-link_button-color" href="" target="_blank">Add to Calendar</a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="db-container footer-bg"><tbody><tr><td align="center" width="100%" class="db-full-width-center" style="padding: 25px 20px 0px;"><img id="style-footer-logo" src="https://s3.amazonaws.com/demo-builder/custom-demo-assets/3a8c0910-6719-11e9-ab64-65f9d8e0313c.gif" style="width:50%"></td></tr></tbody></table><table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="db-container footer-bg"><tbody><tr><td align="center" width="100%" class="db-full-width-center text-footer-color" style="font-size: 11px; font-style: normal; font-weight: normal; padding: 25px 20px;"> This email was sent by:<br> %%Member_Busname%% %%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%<br></td></tr></tbody></table><table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="db-container footer-bg"><tbody><tr><td align="center" class="db-full-width-center" style="padding: 10px 10px 25px;"><a class="text-footer-color" target="_blank" style="font-size: 11px; font-style: normal; font-weight: normal; text-decoration: none;">Profile Center</a></td><td align="center" class="db-full-width-center" style="padding: 10px 10px 25px;"><a class="text-footer-color" href="http://www.salesforce.com" target="_blank" style="font-size: 11px; font-style: normal; font-weight: normal; text-decoration: none;">Manage Subscriptions</a></td><td align="center" class="db-full-width-center" style="padding: 10px 10px 25px;"><a class="text-footer-color" target="_blank" style="font-size: 11px; font-style: normal; font-weight: normal; text-decoration: none;">Unsubscribe</a></td></tr></tbody></table><div id="tracking_pixel"><custom name="opencounter" type="tracking"></custom></div><div id="campaign_pixel"></div></body></html>
